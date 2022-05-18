@@ -1,0 +1,212 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(/images/backgroundImage1.png);
+}
+
+body {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes moveIt {
+    from {
+        background-position: bottom left;
+    }
+    to {
+        background-position: top right;
+    }
+}
+
+.mainTextH1 {
+    color: #ff3b00;
+    text-align: center;
+    font-size: 75px;
+    margin: 185px;
+    text-shadow: 13px 12px 6px #000000;
+    background-color: #342a2a;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.scoreTextH1 {
+    color: #ff3b00;
+    text-align: center;
+    font-size: 70px;
+    margin: 8px 700px 70px;
+    text-shadow: 13px 12px 6px #000000;
+    background-color: #342a2a;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.gameStructure {
+    height: 32em;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    margin: -50px 250px 0;
+}
+
+.winOrLoseText {
+    font-size: 75px;
+    color: white;
+}
+
+.handImage {
+    width: 448.5px;
+    height: 307px;
+    transition: transform .25s, visibility .25s ease-in;
+    padding: 0 32px 0 32px;
+}
+
+.playerInfo {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+
+.optionInfo {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    margin: -15px;
+}
+
+.optionBtns {
+    text-align: center;
+}
+
+.optionBtns button {
+    margin: 25px 2px;
+    font-size: 35px;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: white;
+    background: #058946;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px black;
+    transition-duration: 0.25s;
+}
+
+.optionBtns button:hover {
+    background: #ff3b00;
+    transform: scale(1.1);
+}
+
+#usernameInput {
+    font-family: 'cursive';
+    color: white;
+    text-shadow: 1px 1px 10px aqua;
+    display: block;
+    background-color: black;
+    width: 250px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 75px auto 20px auto;
+    text-align: center;
+    font-size: 24px;
+    transition-duration: 0.50s;
+    font-weight: 300;
+}
+
+#usernameInput:hover {
+    background-color: black
+}
+
+#usernameInput:focus {
+    background-color: whitesmoke;
+    width: 300px;
+    color: black;
+}
+
+.settingsSructure {
+    height: 32em;
+    grid-template-columns: 1fr;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 120px 250px 0;
+}
+
+.settingsMainText {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.settingsText {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 0 0 120px 0;
+}
+
+.skinsImages {
+    width: 550px;
+    height: auto;
+}
+
+.leftAndRight {
+    margin: 25px 2px;
+    font-size: 50px;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: white;
+    background: #058946;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px black;
+    transition-duration: 0.25s;
+    width: 100px;
+    height: 100px;
+}
+
+.leftAndRight:hover {
+    background: #ff3b00;
+    transform: scale(1.1);
+}
+
+.skinsSructure {
+    height: 32em;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 120px 250px 0;
+}
+
+.optionForHomeBtn {
+    text-align: center;
+}
+
+.optionForHomeBtn button {
+    margin: 25px 2px;
+    font-size: 35px;
+    border-radius: 100px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: white;
+    background: #058946;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px black;
+    transition-duration: 0.25s;
+}
+
+.optionForHomeBtn button:hover {
+    background: #ff3b00;
+    transform: scale(1.1);
+}
